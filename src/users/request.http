@@ -1,0 +1,8 @@
+//crate a new user
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email":"abc@gmail.com",
+    "password":"12345"
+}
